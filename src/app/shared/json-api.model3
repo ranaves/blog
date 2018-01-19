@@ -1,0 +1,71 @@
+{
+    "data": {
+        "id": "837",
+        "type": "physical_person",
+        "attributes": {
+            "person_id": 1,
+            "occupation_id": 1,
+            "gender_id": 1,
+            "nationality_country_id": 33,
+            "birth_city_id": 3170206,
+            "birth_date": "1976-11-15T00:00:00",
+            "is_emancipated": null,
+            "doc_emancipated_image_url": "urldocumento",
+            "father_name": "pai",
+            "mother_name": "mae",
+            "spouse_name": "esposa",
+            "company_name": "Madrecor",
+            "marital_status_id": 5,
+            "execute_professional_activity": true,
+            "professional_activity_id": 1,
+            "validate_status_id": null,
+            "education_level_id": 2,
+            "fiscal_residency_country_id": null,
+            "is_foreign": false,
+            "nationality_id": 1,
+            "course_name": null,
+            "experience_id": null,
+            "role_name": "cargo de diretor"
+        },
+        "relationships": {
+            "professional_activity": {
+                "data": {
+                    "id": "1",
+                    "type": "professional_activities"
+                }
+            },
+            "education_level": {
+                "data": {
+                    "id": "2",
+                    "type": "education_levels"
+                }
+            },
+            "legal_representative": {
+                "data": null
+            },
+            "experience": {
+                "data": null
+            }
+        }
+    },
+    "included": [
+        {
+            "id": "1",
+            "type": "professional_activities",
+            "attributes": {
+                "name": "OUTROS",
+                "suitability_value": 0,
+                "sinacor_id": 419
+            }
+        },
+        {
+            "id": "2",
+            "type": "education_levels",
+            "attributes": {
+                "sinacor_id": 2,
+                "name": "ENSINO FUNDAMENTAL",
+                "suitability_value": 0
+            }
+        }
+    ]
+}

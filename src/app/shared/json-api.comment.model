@@ -1,0 +1,32 @@
+{
+    "data": 
+    [
+        {
+            "id": "1",
+            "type": "comments",
+            "attributes": {                
+                "name": "id labore ex et quam laborum",
+                "email": "Eliseo@gardner.bir",
+                "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos nreiciendis et nam sapiente accusantium"          
+            }    
+        },  
+        {
+            "id": "2",
+            "type": "comments",
+            "attributes": {                
+                "name": "Morbi ultricies cursus venenatis",
+                "email": "departure-science@edu.com",
+                "body": "Loreipsum vivo elucidim marmore"          
+            }    
+        },
+        {
+            "id": "3",
+            "type": "comments",
+            "attributes": {                
+                "name": "viva la vida",
+                "email": "vivaldi@uk.com",
+                "body": "Cras consequat non erat id mattis"          
+            }    
+        }  
+    ]
+}

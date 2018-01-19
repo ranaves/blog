@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "type": "posts",
+            "id": "1",            
+            "attributes": {               
+                "title": "Bootstrap Framework",
+                "body": "Get started with Bootstrap, the world's most popular framework for building responsive, mobile-first sites",
+                "comment_id": 1                
+            },
+            "relationships": {
+                "comment": {
+                    "data": {
+                        "id": "1",
+                        "type": "comments"
+                    }
+                }
+            }               
+        },
+        {
+            "type": "posts",
+            "id": "2",            
+            "attributes": {               
+                "title": "Iphone X - New Generation",
+                "body": "Our vision has always been to create an iPhone that is entirely screen. One so immersive the device itself disappears into the experience.",
+                "comment_id": 2                
+            },
+            "relationships": {
+                "comment": {
+                    "data": {
+                        "id": "2",
+                        "type": "comments"
+                    }
+                }
+            }               
+        },
+        {
+            "type": "posts",
+            "id": "3",            
+            "attributes": {               
+                "title": "Angular - Onene framework. Mobile & desktop",
+                "body": "Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components.",
+                "comment_id": 3                
+            },
+            "relationships": {
+                "comment": {
+                    "data": {
+                        "id": "3",
+                        "type": "comments"
+                    }
+                }
+            }               
+        }
+    ],
+    "included": [
+        {            
+            "type": "comments",
+            "id": "1",
+            "attributes": {
+                "name": "id labore ex et quam laborum",
+                "email": "Eliseo@gardner.bir",
+                "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos nreiciendis et nam sapiente accusantium"                          
+            }
+        },
+        {            
+            "type": "comments",
+            "id": "2",
+            "attributes": {
+                "name": "Morbi ultricies cursus venenatis",
+                "email": "departure-science@edu.com",
+                "body": "Loreipsum vivo elucidim marmore"                          
+            }
+        },
+        {            
+            "type": "comments",
+            "id": "3",
+            "attributes": {
+                "name": "viva la vida",
+                "email": "vivaldi@uk.com",
+                "body": "Cras consequat non erat id mattis"                          
+            }
+        }
+    ]      
+}

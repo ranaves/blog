@@ -1,5 +1,10 @@
 # Blog
 
+- Projeto de um blog para consumir API mockada criada em Mocky (https://www.mocky.io/)
+- Utilizado library JSON API (https://github.com/ghidoz/angular2-jsonapi)
+
+## About Angular CLI
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.0.
 
 ## Development server
